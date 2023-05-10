@@ -183,162 +183,118 @@ class _HomePageState extends State<HomePage> {
                         Expanded(
                           child: SizedBox(
                             height: 20,
-                            child: ListView(
-                              scrollDirection: Axis.horizontal,
-                              children: [
-                                Container(
-                                  width: 120,
-                                  child: Center(
-                                      child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(
-                                        '00:00',
-                                        style: TextStyle(
-                                          fontSize: 18,
-                                          color: Colors.black,
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        height: 50,
-                                      ),
-                                      Image.asset(
-                                        'assets/images/rainy.png',
-                                        height: 50,
-                                        width: 50,
-                                      ),
-                                      SizedBox(
-                                        height: 50,
-                                      ),
-                                      Row(
-                                        mainAxisSize: MainAxisSize.min,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            '27',
-                                            style: TextStyle(
-                                                fontSize: 18,
-                                                color: Colors.black),
-                                          ),
-                                          Text(
-                                            'o',
-                                            style: TextStyle(
-                                                fontSize: 10,
-                                                color: Colors.black),
-                                          ),
-                                        ],
-                                      )
-                                    ],
-                                  )),
-                                ),
-                                Container(
-                                  width: 120,
-                                  child: Center(
-                                      child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(
-                                        '02:00',
-                                        style: TextStyle(
-                                          fontSize: 18,
-                                          color: Colors.black,
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        height: 50,
-                                      ),
-                                      Image.asset(
-                                        'assets/images/storm.png',
-                                        height: 50,
-                                        width: 50,
-                                      ),
-                                      SizedBox(
-                                        height: 50,
-                                      ),
-                                      Row(
-                                        mainAxisSize: MainAxisSize.min,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            '22',
-                                            style: TextStyle(
-                                                fontSize: 18,
-                                                color: Colors.black),
-                                          ),
-                                          Text(
-                                            'o',
-                                            style: TextStyle(
-                                                fontSize: 10,
-                                                color: Colors.black),
-                                          ),
-                                        ],
-                                      )
-                                    ],
-                                  )),
-                                ),
-                                Container(
-                                  width: 120,
-                                  child: Center(
-                                      child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(
-                                        '06:00',
-                                        style: TextStyle(
-                                          fontSize: 18,
-                                          color: Colors.black,
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        height: 50,
-                                      ),
-                                      Image.asset(
-                                        'assets/images/cloudy.png',
-                                        height: 50,
-                                        width: 50,
-                                      ),
-                                      SizedBox(
-                                        height: 50,
-                                      ),
-                                      Row(
-                                        mainAxisSize: MainAxisSize.min,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            '30',
-                                            style: TextStyle(
-                                                fontSize: 18,
-                                                color: Colors.black),
-                                          ),
-                                          Text(
-                                            'o',
-                                            style: TextStyle(
-                                                fontSize: 10,
-                                                color: Colors.black),
-                                          ),
-                                        ],
-                                      )
-                                    ],
-                                  )),
-                                ),
-                                Container(
-                                  width: 120,
-                                  child: Center(
-                                    child: Column(
+                            child: Container(
+                              color: Colors.white,
+                              child: ListView(
+                                scrollDirection: Axis.horizontal,
+                                children: [
+                                  Container(
+                                    width: 120,
+                                    child: Center(
+                                        child: Column(
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
                                       children: [
                                         Text(
-                                          '09:00',
+                                          '00:00',
+                                          style: TextStyle(
+                                            fontSize: 18,
+                                            color: Colors.black,
+                                          ),
+                                        ),
+                                        SizedBox(
+                                          height: 50,
+                                        ),
+                                        Image.asset(
+                                          'assets/images/rainy.png',
+                                          height: 50,
+                                          width: 50,
+                                        ),
+                                        SizedBox(
+                                          height: 50,
+                                        ),
+                                        Row(
+                                          mainAxisSize: MainAxisSize.min,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              '27',
+                                              style: TextStyle(
+                                                  fontSize: 18,
+                                                  color: Colors.black),
+                                            ),
+                                            Text(
+                                              'o',
+                                              style: TextStyle(
+                                                  fontSize: 10,
+                                                  color: Colors.black),
+                                            ),
+                                          ],
+                                        )
+                                      ],
+                                    )),
+                                  ),
+                                  Container(
+                                    width: 120,
+                                    child: Center(
+                                        child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Text(
+                                          '02:00',
+                                          style: TextStyle(
+                                            fontSize: 18,
+                                            color: Colors.black,
+                                          ),
+                                        ),
+                                        SizedBox(
+                                          height: 50,
+                                        ),
+                                        Image.asset(
+                                          'assets/images/storm.png',
+                                          height: 50,
+                                          width: 50,
+                                        ),
+                                        SizedBox(
+                                          height: 50,
+                                        ),
+                                        Row(
+                                          mainAxisSize: MainAxisSize.min,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              '22',
+                                              style: TextStyle(
+                                                  fontSize: 18,
+                                                  color: Colors.black),
+                                            ),
+                                            Text(
+                                              'o',
+                                              style: TextStyle(
+                                                  fontSize: 10,
+                                                  color: Colors.black),
+                                            ),
+                                          ],
+                                        )
+                                      ],
+                                    )),
+                                  ),
+                                  Container(
+                                    width: 120,
+                                    child: Center(
+                                        child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Text(
+                                          '06:00',
                                           style: TextStyle(
                                             fontSize: 18,
                                             color: Colors.black,
@@ -363,7 +319,7 @@ class _HomePageState extends State<HomePage> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              '32',
+                                              '30',
                                               style: TextStyle(
                                                   fontSize: 18,
                                                   color: Colors.black),
@@ -377,10 +333,60 @@ class _HomePageState extends State<HomePage> {
                                           ],
                                         )
                                       ],
+                                    )),
+                                  ),
+                                  Container(
+                                    width: 120,
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        children: [
+                                          Text(
+                                            '09:00',
+                                            style: TextStyle(
+                                              fontSize: 18,
+                                              color: Colors.black,
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 50,
+                                          ),
+                                          Image.asset(
+                                            'assets/images/cloudy.png',
+                                            height: 50,
+                                            width: 50,
+                                          ),
+                                          SizedBox(
+                                            height: 50,
+                                          ),
+                                          Row(
+                                            mainAxisSize: MainAxisSize.min,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Text(
+                                                '32',
+                                                style: TextStyle(
+                                                    fontSize: 18,
+                                                    color: Colors.black),
+                                              ),
+                                              Text(
+                                                'o',
+                                                style: TextStyle(
+                                                    fontSize: 10,
+                                                    color: Colors.black),
+                                              ),
+                                            ],
+                                          )
+                                        ],
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           ),
                         ),
